@@ -1,0 +1,9 @@
+server:
+  port: 12306
+spring:
+  application:
+    name: send-email
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:12333/eureka/
